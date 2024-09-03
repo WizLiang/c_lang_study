@@ -9,11 +9,12 @@ TEST_SRC=$(wildcard tests/*_tests.c)
 TESTS=$(patsubst %.c,%,$(TEST_SRC))
 
 #TARGET=build/libYOUR_LIBRARY.a
-TARGET=build/libex29.a
+TARGET=build/liblcthw.a
 SO_TARGET=$(patsubst %.a,%.so,$(TARGET))
 
 # The Target Build
 all: $(TARGET) $(SO_TARGET) tests
+#all: $(TARGET) tests
 
 dev: CFLAGS=-g -Wall -Isrc -Wall -Wextra $(OPTFLAGS)
 dev: all
@@ -30,11 +31,19 @@ build:
 	@mkdir -p build
 	@mkdir -p bin
 
-# The Unit Tests
+$(TESTS): % : %.c $(TARGET)
+	$(CC) $(CFLAGS) -o $@ $< $(TARGET) $(LIBS)
+
+
 .PHONY: tests
-tests: CFLAGS += $(TARGET)
 tests: $(TESTS)
 	sh ./tests/runtests.sh
+
+# # The Unit Tests
+# .PHONY: tests
+# tests: CFLAGS += $(TARGET) # put $(TARGET) before -o
+# tests: $(TESTS)
+# 	sh ./tests/runtests.sh
 
 valgrind:
 	VALGRIND="valgrind --log-file=/tmp/valgrind-%p.log" $(MAKE)
