@@ -242,3 +242,49 @@ List *List_split(List *list, ListNode *node){
     return new_list;
 
 }
+
+
+void List_swap_nodes( List *list, ListNode *a,ListNode *b){
+    if(a == b) return;
+
+    //tmp
+    ListNode *prevA = a->prev;
+    ListNode *nextA = a->next;
+    ListNode *prevB = b->prev;
+    ListNode *nextB = b->next;
+
+    //swap
+    if (nextA = b){
+        a->next = nextB;
+        a->prev = b;
+        b->next = a;
+        b->prev = prevA;
+        if (nextB) nextB->prev = a;
+        if (prevA) prevA->next = b;
+    }
+    else if(nextB = a){
+        a->next = b;
+        a->prev = prevB;
+        b->next = nextA;
+        b->prev = a;
+        if (nextA) nextA->prev = b;
+        if (prevB) prevB->next = a;
+    }
+    else{
+        if (prevA) prevA->next = b;
+        if (nextA) nextA->prev = b;
+        b->prev = prevA;
+        b->next = nextA;
+
+        if (prevB) prevB->next = a;
+        if (nextB) nextB->prev = a;
+        a->prev = prevB;
+        a->next = nextB;
+    }
+    // check and update the first and the last pointer
+    if (list->first == a) list->first = b;
+    else if (list->first == b) list->first = a;
+    if (list->last == a) list->last = b;
+    else if (list->last == b) list->last = a;
+
+}

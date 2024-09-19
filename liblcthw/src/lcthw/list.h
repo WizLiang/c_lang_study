@@ -80,6 +80,9 @@ returns a list that contains the nodes from the specified node to the end of the
 */
 List *List_split(List *list, ListNode *node);
 
+void List_swap_nodes( List *list, ListNode *a,ListNode *b);
+
+
 
 #define LIST_FOREACH(L, S, M, V) ListNode *_node = NULL;\
     ListNode *V = NULL;\
