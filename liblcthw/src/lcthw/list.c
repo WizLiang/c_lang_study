@@ -254,7 +254,7 @@ void List_swap_nodes( List *list, ListNode *a,ListNode *b){
     ListNode *nextB = b->next;
 
     //swap
-    if (nextA = b){
+    if (nextA == b){
         a->next = nextB;
         a->prev = b;
         b->next = a;
@@ -262,7 +262,7 @@ void List_swap_nodes( List *list, ListNode *a,ListNode *b){
         if (nextB) nextB->prev = a;
         if (prevA) prevA->next = b;
     }
-    else if(nextB = a){
+    else if(nextB == a){
         a->next = b;
         a->prev = prevB;
         b->next = nextA;

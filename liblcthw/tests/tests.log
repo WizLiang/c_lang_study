@@ -1,5 +1,1134 @@
 DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
 DEBUG tests/list_algos_tests.c:82: 
 ----- test_bubble_sort
-DEBUG tests/list_algos_tests.c:25: XXXX NDSS
-[ERROR] (tests/list_algos_tests.c:40: errno: None) Words are not sorted after bubble sort.
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:71: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:64: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:65: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:66: 
+----- test_destroy
+DEBUG tests/stack_tests.c:60: ----- RUNNING: ./tests/stack_tests
+DEBUG tests/stack_tests.c:53: 
+----- test_create
+DEBUG tests/stack_tests.c:54: 
+----- test_push_pop
+DEBUG tests/stack_tests.c:37: VAL: test3 data
+DEBUG tests/stack_tests.c:37: VAL: test2 data
+DEBUG tests/stack_tests.c:37: VAL: test1 data
+DEBUG tests/stack_tests.c:55: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:90: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:83: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:84: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:85: 
+----- test_destroy
+DEBUG tests/stack_tests.c:60: ----- RUNNING: ./tests/stack_tests
+DEBUG tests/stack_tests.c:53: 
+----- test_create
+DEBUG tests/stack_tests.c:54: 
+----- test_push_pop
+DEBUG tests/stack_tests.c:37: VAL: test3 data
+DEBUG tests/stack_tests.c:37: VAL: test2 data
+DEBUG tests/stack_tests.c:37: VAL: test1 data
+DEBUG tests/stack_tests.c:55: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:91: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:83: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:84: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:85: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:86: 
+----- test_full_buffer
+[ERROR] (tests/ringbuffer_tests.c:63: errno: None) the rbuff is not be ready for full test!
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:92: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:83: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:84: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:85: 
+----- test_full_buffer
+[ERROR] (tests/ringbuffer_tests.c:68: errno: None) the buffer should be full.
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:92: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:83: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:84: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:85: 
+----- test_full_buffer
+[ERROR] (tests/ringbuffer_tests.c:68: errno: None) the buffer should be full.
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:92: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:83: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:84: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:85: 
+----- test_full_buffer
+[ERROR] (tests/ringbuffer_tests.c:68: errno: None) the buffer should be full.
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:93: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:84: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:85: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:86: 
+----- test_full_buffer
+[ERROR] (tests/ringbuffer_tests.c:69: errno: None) the buffer should be full.
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:93: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:84: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:85: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:86: 
+----- test_full_buffer
+[ERROR] (tests/ringbuffer_tests.c:69: errno: None) the buffer should be full.
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:93: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:84: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:85: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:86: 
+----- test_full_buffer
+[ERROR] (tests/ringbuffer_tests.c:69: errno: None) the buffer should be full.
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:94: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:85: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:86: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:87: 
+----- test_full_buffer
+[ERROR] (tests/ringbuffer_tests.c:70: errno: None) the buffer should be full.
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:94: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:85: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:86: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:87: 
+----- test_full_buffer
+[ERROR] (src/lcthw/ringbuffer.c:36: errno: None) Not enough space: 5 request, 0 available
+DEBUG tests/ringbuffer_tests.c:88: 
+----- test_destroy
+DEBUG tests/stack_tests.c:60: ----- RUNNING: ./tests/stack_tests
+DEBUG tests/stack_tests.c:53: 
+----- test_create
+DEBUG tests/stack_tests.c:54: 
+----- test_push_pop
+DEBUG tests/stack_tests.c:37: VAL: test3 data
+DEBUG tests/stack_tests.c:37: VAL: test2 data
+DEBUG tests/stack_tests.c:37: VAL: test1 data
+DEBUG tests/stack_tests.c:55: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:128: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:118: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:119: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:120: 
+----- test_full_buffer
+[ERROR] (src/lcthw/ringbuffer.c:36: errno: None) Not enough space: 5 request, 0 available
+DEBUG tests/ringbuffer_tests.c:121: 
+----- test_partial_read_write
+[ERROR] (tests/ringbuffer_tests.c:94: errno: None) Incorrect available space after partial writing.
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:116: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:106: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:107: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:108: 
+----- test_full_buffer
+[ERROR] (src/lcthw/ringbuffer.c:36: errno: None) Not enough space: 5 request, 0 available
+DEBUG tests/ringbuffer_tests.c:109: 
+----- test_partial_read_write
+[ERROR] (tests/ringbuffer_tests.c:94: errno: None) Incorrect available data after partial read.
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:116: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:106: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:107: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:108: 
+----- test_full_buffer
+[ERROR] (src/lcthw/ringbuffer.c:36: errno: None) Not enough space: 5 request, 0 available
+DEBUG tests/ringbuffer_tests.c:110: 
+----- test_destroy
+DEBUG tests/stack_tests.c:60: ----- RUNNING: ./tests/stack_tests
+DEBUG tests/stack_tests.c:53: 
+----- test_create
+DEBUG tests/stack_tests.c:54: 
+----- test_push_pop
+DEBUG tests/stack_tests.c:37: VAL: test3 data
+DEBUG tests/stack_tests.c:37: VAL: test2 data
+DEBUG tests/stack_tests.c:37: VAL: test1 data
+DEBUG tests/stack_tests.c:55: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:116: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:106: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:107: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:108: 
+----- test_full_buffer
+[ERROR] (src/lcthw/ringbuffer.c:36: errno: None) Not enough space: 5 request, 0 available
+DEBUG tests/ringbuffer_tests.c:109: 
+----- test_partial_read_write
+[ERROR] (tests/ringbuffer_tests.c:94: errno: None) Incorrect available data after partial read.
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:114: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:104: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:105: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:106: 
+----- test_full_buffer
+[ERROR] (src/lcthw/ringbuffer.c:36: errno: None) Not enough space: 5 request, 0 available
+DEBUG tests/ringbuffer_tests.c:107: 
+----- test_partial_read_write
+[ERROR] (tests/ringbuffer_tests.c:92: errno: None) Incorrect available data after partial read.
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:117: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:107: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:108: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:109: 
+----- test_full_buffer
+[ERROR] (src/lcthw/ringbuffer.c:36: errno: None) Not enough space: 5 request, 0 available
+DEBUG tests/ringbuffer_tests.c:110: 
+----- test_partial_read_write
+[ERROR] (tests/ringbuffer_tests.c:95: errno: None) Incorrect available data after partial read.
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:117: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:107: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:108: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:109: 
+----- test_full_buffer
+[ERROR] (src/lcthw/ringbuffer.c:36: errno: None) Not enough space: 5 request, 0 available
+DEBUG tests/ringbuffer_tests.c:111: 
+----- test_destroy
+DEBUG tests/stack_tests.c:60: ----- RUNNING: ./tests/stack_tests
+DEBUG tests/stack_tests.c:53: 
+----- test_create
+DEBUG tests/stack_tests.c:54: 
+----- test_push_pop
+DEBUG tests/stack_tests.c:37: VAL: test3 data
+DEBUG tests/stack_tests.c:37: VAL: test2 data
+DEBUG tests/stack_tests.c:37: VAL: test1 data
+DEBUG tests/stack_tests.c:55: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:117: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:107: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:108: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:109: 
+----- test_full_buffer
+[ERROR] (src/lcthw/ringbuffer.c:36: errno: None) Not enough space: 5 request, 0 available
+DEBUG tests/ringbuffer_tests.c:111: 
+----- test_destroy
+DEBUG tests/stack_tests.c:60: ----- RUNNING: ./tests/stack_tests
+DEBUG tests/stack_tests.c:53: 
+----- test_create
+DEBUG tests/stack_tests.c:54: 
+----- test_push_pop
+DEBUG tests/stack_tests.c:37: VAL: test3 data
+DEBUG tests/stack_tests.c:37: VAL: test2 data
+DEBUG tests/stack_tests.c:37: VAL: test1 data
+DEBUG tests/stack_tests.c:55: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:117: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:107: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:108: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:109: 
+----- test_full_buffer
+[ERROR] (src/lcthw/ringbuffer.c:36: errno: None) Not enough space: 5 request, 0 available
+DEBUG tests/ringbuffer_tests.c:110: 
+----- test_partial_read_write
+DEBUG tests/ringbuffer_tests.c:111: 
+----- test_destroy
+DEBUG tests/stack_tests.c:60: ----- RUNNING: ./tests/stack_tests
+DEBUG tests/stack_tests.c:53: 
+----- test_create
+DEBUG tests/stack_tests.c:54: 
+----- test_push_pop
+DEBUG tests/stack_tests.c:37: VAL: test3 data
+DEBUG tests/stack_tests.c:37: VAL: test2 data
+DEBUG tests/stack_tests.c:37: VAL: test1 data
+DEBUG tests/stack_tests.c:55: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:136: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:126: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:127: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:128: 
+----- test_full_buffer
+[ERROR] (src/lcthw/ringbuffer.c:36: errno: None) Not enough space: 5 request, 0 available
+DEBUG tests/ringbuffer_tests.c:129: 
+----- test_partial_read_write
+DEBUG tests/ringbuffer_tests.c:130: 
+----- test_destroy
+DEBUG tests/stack_tests.c:60: ----- RUNNING: ./tests/stack_tests
+DEBUG tests/stack_tests.c:53: 
+----- test_create
+DEBUG tests/stack_tests.c:54: 
+----- test_push_pop
+DEBUG tests/stack_tests.c:37: VAL: test3 data
+DEBUG tests/stack_tests.c:37: VAL: test2 data
+DEBUG tests/stack_tests.c:37: VAL: test1 data
+DEBUG tests/stack_tests.c:55: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:136: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:126: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:127: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:128: 
+----- test_full_buffer
+[ERROR] (src/lcthw/ringbuffer.c:36: errno: None) Not enough space: 5 request, 0 available
+DEBUG tests/ringbuffer_tests.c:129: 
+----- test_partial_read_write
+[ERROR] (tests/ringbuffer_tests.c:95: errno: None) Incorrect available data after partial read.
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:136: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:126: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:127: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:128: 
+----- test_full_buffer
+[ERROR] (src/lcthw/ringbuffer.c:36: errno: None) Not enough space: 5 request, 0 available
+DEBUG tests/ringbuffer_tests.c:129: 
+----- test_partial_read_write
+DEBUG tests/ringbuffer_tests.c:130: 
+----- test_destroy
+DEBUG tests/stack_tests.c:60: ----- RUNNING: ./tests/stack_tests
+DEBUG tests/stack_tests.c:53: 
+----- test_create
+DEBUG tests/stack_tests.c:54: 
+----- test_push_pop
+DEBUG tests/stack_tests.c:37: VAL: test3 data
+DEBUG tests/stack_tests.c:37: VAL: test2 data
+DEBUG tests/stack_tests.c:37: VAL: test1 data
+DEBUG tests/stack_tests.c:55: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:136: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:126: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:127: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:128: 
+----- test_full_buffer
+[ERROR] (src/lcthw/ringbuffer.c:36: errno: None) Not enough space: 5 request, 0 available
+DEBUG tests/ringbuffer_tests.c:129: 
+----- test_partial_read_write
+[ERROR] (tests/ringbuffer_tests.c:95: errno: None) Incorrect available data after partial read.
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:176: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:162: 
+----- test_create
+DEBUG tests/list_tests.c:163: 
+----- test_push_pop
+DEBUG tests/list_tests.c:164: 
+----- test_unshift
+DEBUG tests/list_tests.c:165: 
+----- test_remove
+DEBUG tests/list_tests.c:166: 
+----- test_shift
+DEBUG tests/list_tests.c:168: 
+----- test_concat
+DEBUG tests/list_tests.c:169: 
+----- test_split
+DEBUG tests/list_tests.c:171: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:118: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:108: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:109: 
+----- test_write_read
+DEBUG tests/ringbuffer_tests.c:110: 
+----- test_full_buffer
+[ERROR] (src/lcthw/ringbuffer.c:36: errno: None) Not enough space: 5 request, 0 available
+DEBUG tests/ringbuffer_tests.c:111: 
+----- test_partial_read_write
+[ERROR] (tests/ringbuffer_tests.c:95: errno: None) Incorrect available data after partial read.

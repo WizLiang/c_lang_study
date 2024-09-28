@@ -1,6 +1,7 @@
 CFLAGS=-g -O2 -Wall -Wextra -Isrc -rdynamic -DNDEBUG $(OPTFLAGS)
 LIBS=-ldl $(OPTLIBS)
-PREFIX?=/usr/local
+#PREFIX?=/usr/local
+PREFIX=/home/wizard/c_lang_study
 
 SOURCES=$(wildcard src/**/*.c src/*.c)
 OBJECTS=$(patsubst %.c,%.o,$(SOURCES))# turn all .c file into .o in order to generate obj file name
